@@ -1,0 +1,148 @@
+const data = [
+  {
+    id: 1,
+    image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    price: 109.95,
+    rating: { rate: 3.9, count: 120 },
+    title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+  },
+  {
+    id: 2,
+    image:
+      "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    price: 22.3,
+    rating: { rate: 4.1, count: 259 },
+    title: "Mens Casual Premium Slim Fit T-Shirts ",
+  },
+  {
+    id: 3,
+    image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    price: 55.99,
+    rating: { rate: 4.7, count: 500 },
+    title: "Mens Cotton Jacket",
+  },
+  {
+    id: 4,
+    image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    price: 15.99,
+    rating: { rate: 2.1, count: 430 },
+    title: "Mens Casual Slim Fit",
+  },
+  {
+    id: 5,
+    image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    price: 695,
+    rating: { rate: 4.6, count: 400 },
+    title:
+      "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+  },
+  {
+    id: 6,
+    image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    price: 168,
+    rating: { rate: 3.9, count: 70 },
+    title: "Solid Gold Petite Micropave ",
+  },
+  {
+    id: 7,
+    image: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    price: 9.99,
+    rating: { rate: 3, count: 400 },
+    title: "White Gold Plated Princess",
+  },
+  {
+    id: 8,
+    image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+    price: 10.99,
+    rating: { rate: 1.9, count: 100 },
+    title: "Pierced Owl Rose Gold Plated Stainless Steel Double",
+  },
+  {
+    id: 9,
+    image: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    price: 64,
+    rating: { rate: 3.3, count: 203 },
+    title: "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+  },
+  {
+    id: 10,
+    image: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    price: 109,
+    rating: { rate: 2.9, count: 470 },
+    title: "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+  },
+  {
+    id: 11,
+    image: "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+    price: 109,
+    rating: { rate: 4.8, count: 319 },
+    title:
+      "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+  },
+  {
+    id: 12,
+    image: "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+    price: 114,
+    rating: { rate: 4.8, count: 400 },
+    title:
+      "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+  },
+  {
+    id: 13,
+    image: "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+    price: 599,
+    rating: { rate: 2.9, count: 250 },
+    title: "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+  },
+  {
+    id: 14,
+    image: "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    price: 999.99,
+    rating: { rate: 2.2, count: 140 },
+    title:
+      "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+  },
+  {
+    id: 15,
+    image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+    price: 56.99,
+    rating: { rate: 2.6, count: 235 },
+    title: "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+  },
+  {
+    id: 16,
+    image: "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+    price: 29.95,
+    rating: { rate: 2.9, count: 340 },
+    title:
+      "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+  },
+  {
+    id: 17,
+    image: "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    price: 39.99,
+    rating: { rate: 3.8, count: 679 },
+    title: "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+  },
+  {
+    id: 18,
+    image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+    price: 9.85,
+    rating: { rate: 4.7, count: 130 },
+    title: "MBJ Women's Solid Short Sleeve Boat Neck V ",
+  },
+  {
+    id: 19,
+    image: "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+    price: 7.95,
+    rating: { rate: 4.5, count: 146 },
+    title: "Opna Women's Short Sleeve Moisture",
+  },
+  {
+    id: 20,
+    image: "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+    price: 12.99,
+    rating: { rate: 3.6, count: 145 },
+    title: "DANVOUY Womens T Shirt Casual Cotton Short",
+  },
+];
